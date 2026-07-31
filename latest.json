@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "1.0.1",
-  "build": 96,
-  "releasedAt": "2026-07-31T11:40:55.619144Z",
+  "version": "1.1.0",
+  "build": 98,
+  "releasedAt": "2026-07-31T13:36:59.620544Z",
   "minSupported": "0.0.0",
-  "notesUrl": "https://github.com/duty8964/115Lab-Release/releases/tag/v1.0.1",
-  "notes": "- update the release script\n- bootstrap an empty release repo, survive a failed publish\n- play through libmpv instead of AVPlayer\n- open 原画 by default, and list it for every container\n- read file content the way the official client does\n- accept a positional version, survive an empty arg array\n- connect as patiently as the official client\n- lower the minimum system to macOS 12\n- play the feature, not just the preview\n- play each video in its own window\n- give the player window a black edge, not a white one\n- stop waiting on an edge that has gone silent\n- stay on 原画 instead of quietly sliding down to a transcode\n- say how fast it is downloading instead of just spinning\n- open the file list even when the session prep hangs\n- rebuild the detail page around what it shows\n- keep 片库 behind the login\n- open 趋势 on the day, and call the first tab 发现\n- forget what 片库 played\n- tell the macOS window how fast it is downloading\n- stop asking an iPad to update itself",
+  "notesUrl": "https://github.com/duty8964/115Lab-Release/releases/tag/v1.1.0",
+  "notes": "- add a 显示“海盗湾” toggle and rename CatalogVisibilitySettings to NavVisibilitySettings\n- rename 趋势 to 热门, lead with it, and turn 发现 into an auto-rotating carousel above the ranking tabs\n- fly the row into 传输 as a circle when download is pressed\n- stop shipping stale MSVC runtime that crashed the release build",
   "platforms": {
     "windows": {
       "kind": "innoSetup",
-      "fileName": "115Lab-Setup-1.0.1.exe",
-      "size": 28450023,
-      "sha256": "e36d6fdb2ad335f4b550c35e4c8827f84c791fe2e9e8572d399aece4f56f3dcd",
-      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.0.1/115Lab-Setup-1.0.1.exe",
+      "fileName": "115Lab-Setup-1.1.0.exe",
+      "size": 26827016,
+      "sha256": "1378c256d9291ea61f6a224146bb96b7d3517e9c233ac281f741f3cdd9bba61c",
+      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.1.0/115Lab-Setup-1.1.0.exe",
       "silentArgs": [
         "/SILENT",
         "/NOCANCEL",
@@ -23,10 +23,10 @@
     },
     "macos": {
       "kind": "appZip",
-      "fileName": "115Lab-1.0.1-macos.zip",
-      "size": 39712246,
-      "sha256": "4ab398dbfb613aa5e77ba1bdc3c6c14531b7ec12ecea3336e2a11172e8a056eb",
-      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.0.1/115Lab-1.0.1-macos.zip",
+      "fileName": "115Lab-1.1.0-macos.zip",
+      "size": 39666599,
+      "sha256": "8aac3d779d28f84d322d7cc26de923ab3b47d55284720923f1a40873c8c67992",
+      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.1.0/115Lab-1.1.0-macos.zip",
       "minOsVersion": "12.0"
     }
   }
