@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "1.1.0",
-  "build": 98,
-  "releasedAt": "2026-07-31T13:36:59.620544Z",
+  "version": "1.1.1",
+  "build": 99,
+  "releasedAt": "2026-07-31T13:51:06.405751Z",
   "minSupported": "0.0.0",
-  "notesUrl": "https://github.com/duty8964/115Lab-Release/releases/tag/v1.1.0",
-  "notes": "- add a 显示“海盗湾” toggle and rename CatalogVisibilitySettings to NavVisibilitySettings\n- rename 趋势 to 热门, lead with it, and turn 发现 into an auto-rotating carousel above the ranking tabs\n- fly the row into 传输 as a circle when download is pressed\n- stop shipping stale MSVC runtime that crashed the release build",
+  "notesUrl": "https://github.com/duty8964/115Lab-Release/releases/tag/v1.1.1",
+  "notes": "- purge stale CRT DLLs from existing installs on upgrade",
   "platforms": {
     "windows": {
       "kind": "innoSetup",
-      "fileName": "115Lab-Setup-1.1.0.exe",
-      "size": 26827016,
-      "sha256": "1378c256d9291ea61f6a224146bb96b7d3517e9c233ac281f741f3cdd9bba61c",
-      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.1.0/115Lab-Setup-1.1.0.exe",
+      "fileName": "115Lab-Setup-1.1.1.exe",
+      "size": 26825696,
+      "sha256": "f17b0cd3d05e1e5e74fb9102199e34ec5fc22836be2413dceb4b72eccdc27229",
+      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.1.1/115Lab-Setup-1.1.1.exe",
       "silentArgs": [
         "/SILENT",
         "/NOCANCEL",
@@ -20,14 +20,6 @@
         "/CLOSEAPPLICATIONS",
         "/relaunch=1"
       ]
-    },
-    "macos": {
-      "kind": "appZip",
-      "fileName": "115Lab-1.1.0-macos.zip",
-      "size": 39666599,
-      "sha256": "8aac3d779d28f84d322d7cc26de923ab3b47d55284720923f1a40873c8c67992",
-      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.1.0/115Lab-1.1.0-macos.zip",
-      "minOsVersion": "12.0"
     }
   }
 }
