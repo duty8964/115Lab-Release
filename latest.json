@@ -2,7 +2,7 @@
   "schema": 1,
   "version": "1.1.1",
   "build": 99,
-  "releasedAt": "2026-07-31T13:51:06.405751Z",
+  "releasedAt": "2026-07-31T13:58:36.952399Z",
   "minSupported": "0.0.0",
   "notesUrl": "https://github.com/duty8964/115Lab-Release/releases/tag/v1.1.1",
   "notes": "- purge stale CRT DLLs from existing installs on upgrade",
@@ -20,6 +20,14 @@
         "/CLOSEAPPLICATIONS",
         "/relaunch=1"
       ]
+    },
+    "macos": {
+      "kind": "appZip",
+      "fileName": "115Lab-1.1.1-macos.zip",
+      "size": 39666580,
+      "sha256": "5632816174883465b25d6132ed64abff72a3508476da5bf1d66495876027dae9",
+      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.1.1/115Lab-1.1.1-macos.zip",
+      "minOsVersion": "12.0"
     }
   }
 }
