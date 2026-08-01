@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "1.1.1",
-  "build": 99,
-  "releasedAt": "2026-07-31T13:58:36.952399Z",
+  "version": "1.2.0",
+  "build": 105,
+  "releasedAt": "2026-08-01T12:02:46.795545Z",
   "minSupported": "0.0.0",
-  "notesUrl": "https://github.com/duty8964/115Lab-Release/releases/tag/v1.1.1",
-  "notes": "- purge stale CRT DLLs from existing installs on upgrade",
+  "notesUrl": "https://github.com/duty8964/115Lab-Release/releases/tag/v1.2.0",
+  "notes": "- preserve reviews at pagination boundary\n- improve player startup and stall recovery\n- add custom touch player controls\n- preserve original playback on touch devices\n- preserve resume point across source fallback\n- recover progressive streams without cold restarts\n- include Android APK in releases\n- add YTS movie browsing and playback\n- keep the browsed folder across the layout breakpoint\n- animate the swipe back to the parent folder\n- size the cover to its own ratio, one-line tags, aligned fact rows\n- order the cast actress-first and link each performer to their page\n- link only the actresses in the cast row, with the avatar on their page\n- make ed2k links in comments transferable like magnets\n- drop the selection-count badges from the toolbar icons\n- keep the scroll position when switching ranking or filter tabs\n- add a 显示“盘搜” toggle beside 片库 and 海盗湾",
   "platforms": {
     "windows": {
       "kind": "innoSetup",
-      "fileName": "115Lab-Setup-1.1.1.exe",
-      "size": 26825696,
-      "sha256": "f17b0cd3d05e1e5e74fb9102199e34ec5fc22836be2413dceb4b72eccdc27229",
-      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.1.1/115Lab-Setup-1.1.1.exe",
+      "fileName": "115Lab-Setup-1.2.0.exe",
+      "size": 26980574,
+      "sha256": "a670008f1b3e37448d06bbd8343200c5663349fa91422602d1bc8af733d8646e",
+      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.2.0/115Lab-Setup-1.2.0.exe",
       "silentArgs": [
         "/SILENT",
         "/NOCANCEL",
@@ -21,12 +21,19 @@
         "/relaunch=1"
       ]
     },
+    "android": {
+      "kind": "apk",
+      "fileName": "115Lab-1.2.0.apk",
+      "size": 106843725,
+      "sha256": "1c8eb086913dd4b14db08e15b0ee5d5e6b39b1fec942401f9df9385978b73127",
+      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.2.0/115Lab-1.2.0.apk"
+    },
     "macos": {
       "kind": "appZip",
-      "fileName": "115Lab-1.1.1-macos.zip",
-      "size": 39666580,
-      "sha256": "5632816174883465b25d6132ed64abff72a3508476da5bf1d66495876027dae9",
-      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.1.1/115Lab-1.1.1-macos.zip",
+      "fileName": "115Lab-1.2.0-macos.zip",
+      "size": 40133886,
+      "sha256": "279a96a2dd427ae735465d4637de612cd4cfc84a5f7ef4f74fc741083ab1da7c",
+      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.2.0/115Lab-1.2.0-macos.zip",
       "minOsVersion": "12.0"
     }
   }
