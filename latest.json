@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "1.3.0",
-  "build": 111,
-  "releasedAt": "2026-08-02T10:21:02.810626Z",
+  "version": "1.3.1",
+  "build": 112,
+  "releasedAt": "2026-08-02T11:40:58.459335Z",
   "minSupported": "0.0.0",
-  "notesUrl": "https://github.com/duty8964/115Lab-Release/releases/tag/v1.3.0",
-  "notes": "- support desktop drag-and-drop uploads\n- restore concurrent local downloads\n- keep downloads alive through network outages\n- keep embedded subtitles in player menu\n- gate adult content behind age confirmation\n- add bounded text file previews\n- Fix ed2k links with whitespace in filenames\n- add 115 share import flow\n- show highest YTS movie resolution\n- polish mobile page layouts\n- Refine anime and transfer navigation\n- Add animated music player glow\n- clarify compact anime search sizing\n- Move catalog search behind header icons\n- Cache video thumbnails for grid view\n- add audio playback and local media streaming\n- harden local media playback\n- stabilize restored audio sessions\n- improve external player integration\n- add synchronized LRC lyrics",
+  "notesUrl": "https://github.com/duty8964/115Lab-Release/releases/tag/v1.3.1",
+  "notes": "- exit reliably on Windows quit and rescue relaunch from a hung instance",
   "platforms": {
     "windows": {
       "kind": "innoSetup",
-      "fileName": "115Lab-Setup-1.3.0.exe",
-      "size": 27134449,
-      "sha256": "f01af1d15d375ef4d2dbe277adbffaa1472e4cc4d40641055385eba292dcd30a",
-      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.3.0/115Lab-Setup-1.3.0.exe",
+      "fileName": "115Lab-Setup-1.3.1.exe",
+      "size": 27134245,
+      "sha256": "aa0b44f127522e1bb925422dc9f41fe25902cb4267c012f39d529cb19867ac18",
+      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.3.1/115Lab-Setup-1.3.1.exe",
       "silentArgs": [
         "/SILENT",
         "/NOCANCEL",
@@ -20,21 +20,6 @@
         "/CLOSEAPPLICATIONS",
         "/relaunch=1"
       ]
-    },
-    "android": {
-      "kind": "apk",
-      "fileName": "115Lab-1.3.0.apk",
-      "size": 107877077,
-      "sha256": "e4f5542153ae13763bec6fdafce88dd8be5e8712cb37cea8dc2489ec53bcf3bb",
-      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.3.0/115Lab-1.3.0.apk"
-    },
-    "macos": {
-      "kind": "appZip",
-      "fileName": "115Lab-1.3.0-macos.zip",
-      "size": 40791119,
-      "sha256": "de56d70de7078562e9f3233c588bb4017664ee648ecb63afc077f4f073b13d4b",
-      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.3.0/115Lab-1.3.0-macos.zip",
-      "minOsVersion": "12.0"
     }
   }
 }
