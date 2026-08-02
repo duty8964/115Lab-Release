@@ -1,18 +1,24 @@
 {
   "schema": 1,
-  "version": "1.3.1",
-  "build": 112,
-  "releasedAt": "2026-08-02T11:40:58.459335Z",
+  "version": "1.3.2",
+  "build": 113,
+  "releasedAt": "2026-08-02T12:19:05.554050Z",
   "minSupported": "0.0.0",
-  "notesUrl": "https://github.com/duty8964/115Lab-Release/releases/tag/v1.3.1",
-  "notes": "- exit reliably on Windows quit and rescue relaunch from a hung instance",
+  "notesUrl": "https://github.com/duty8964/115Lab-Release/releases/tag/v1.3.2",
+  "notes": "- preserve per-platform update releases",
   "platforms": {
     "windows": {
+      "version": "1.3.2",
+      "build": 113,
+      "releasedAt": "2026-08-02T12:19:05.554050Z",
+      "minSupported": "0.0.0",
+      "notesUrl": "https://github.com/duty8964/115Lab-Release/releases/tag/v1.3.2",
+      "notes": "- preserve per-platform update releases",
       "kind": "innoSetup",
-      "fileName": "115Lab-Setup-1.3.1.exe",
-      "size": 27134245,
-      "sha256": "aa0b44f127522e1bb925422dc9f41fe25902cb4267c012f39d529cb19867ac18",
-      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.3.1/115Lab-Setup-1.3.1.exe",
+      "fileName": "115Lab-Setup-1.3.2.exe",
+      "size": 27134430,
+      "sha256": "28d1a462b7a183ae9b5b64530f6dcd2d1cf9f35957ea9afe9889a6ea1a22e3a5",
+      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.3.2/115Lab-Setup-1.3.2.exe",
       "silentArgs": [
         "/SILENT",
         "/NOCANCEL",
@@ -20,6 +26,33 @@
         "/CLOSEAPPLICATIONS",
         "/relaunch=1"
       ]
+    },
+    "android": {
+      "version": "1.3.2",
+      "build": 113,
+      "releasedAt": "2026-08-02T12:19:05.554050Z",
+      "minSupported": "0.0.0",
+      "notesUrl": "https://github.com/duty8964/115Lab-Release/releases/tag/v1.3.2",
+      "notes": "- preserve per-platform update releases",
+      "kind": "apk",
+      "fileName": "115Lab-1.3.2.apk",
+      "size": 107877077,
+      "sha256": "86dc90d5eadbf9d7f19ca5d8f6fd43a739a3dc7e58081cb94e81462bb76f47ea",
+      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.3.2/115Lab-1.3.2.apk"
+    },
+    "macos": {
+      "version": "1.3.2",
+      "build": 113,
+      "releasedAt": "2026-08-02T12:19:05.554050Z",
+      "minSupported": "0.0.0",
+      "notesUrl": "https://github.com/duty8964/115Lab-Release/releases/tag/v1.3.2",
+      "notes": "- preserve per-platform update releases",
+      "kind": "appZip",
+      "fileName": "115Lab-1.3.2-macos.zip",
+      "size": 40790660,
+      "sha256": "3805199be0b34527160fc6ed218ee73b20c0e236f76bea9aa457a039f6de65f4",
+      "url": "https://github.com/duty8964/115Lab-Release/releases/download/v1.3.2/115Lab-1.3.2-macos.zip",
+      "minOsVersion": "12.0"
     }
   }
 }
